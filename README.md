@@ -7,10 +7,10 @@
 5. Rate Limiter
 6. Merge Intervals
 7. Insert Interval
+8. Meeting Rooms II
 
 ### TODO
-
-- Meeting Rooms II 
+ 
 - Valid Parentheses 
 - Min Stack 
 - Implement Queue using Stacks 
