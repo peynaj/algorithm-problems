@@ -8,10 +8,10 @@
 6. Merge Intervals
 7. Insert Interval
 8. Meeting Rooms II
+9. Valid Parentheses
 
 ### TODO
  
-- Valid Parentheses 
 - Min Stack 
 - Implement Queue using Stacks 
 - Implement Stack using Queues 
