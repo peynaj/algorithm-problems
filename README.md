@@ -13,18 +13,18 @@
 
 ### TODO
  
+- Binary Search
+- Product of Array Except Self
+- Kth Largest Element in an Array
+- Group Anagrams  
+- Number of Islands
 - Implement Queue using Stacks 
-- Implement Stack using Queues 
-- Binary Search 
+- Implement Stack using Queues  
 - Search in Rotated Sorted Array 
-- Find First and Last Position of Element 
-- Kth Largest Element in an Array 
+- Find First and Last Position of Element  
 - Merge K Sorted Lists 
-- Group Anagrams 
-- Encode and Decode Strings 
-- Product of Array Except Self 
+- Encode and Decode Strings  
 - Sliding Window Maximum 
 - Daily Temperatures 
-- Number of Islands 
 - Clone Graph
 - Course Schedule
