@@ -11,10 +11,10 @@
 9. Valid Parentheses
 10. Min Stack
 11. Binary Search
+12. Product of Array Except Self
 
 ### TODO
 
-- Product of Array Except Self
 - Kth Largest Element in an Array
 - Group Anagrams  
 - Number of Islands
