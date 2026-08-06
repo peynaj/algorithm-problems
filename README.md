@@ -9,10 +9,10 @@
 7. Insert Interval
 8. Meeting Rooms II
 9. Valid Parentheses
+10. Min Stack
 
 ### TODO
  
-- Min Stack 
 - Implement Queue using Stacks 
 - Implement Stack using Queues 
 - Binary Search 
