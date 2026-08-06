@@ -10,10 +10,10 @@
 8. Meeting Rooms II
 9. Valid Parentheses
 10. Min Stack
+11. Binary Search
 
 ### TODO
- 
-- Binary Search
+
 - Product of Array Except Self
 - Kth Largest Element in an Array
 - Group Anagrams  
@@ -28,3 +28,15 @@
 - Daily Temperatures 
 - Clone Graph
 - Course Schedule
+
+---
+
+### Binary Search:
+- First Occurrence
+- Last Occurrence
+- Lower Bound
+- Upper Bound
+- Search Insert Position
+- Peak Element
+- Rotated Sorted Array
+- Search on Answer (Binary Search on Answer)
