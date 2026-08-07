@@ -12,10 +12,10 @@
 10. Min Stack
 11. Binary Search
 12. Product of Array Except Self
+13. Kth Largest Element in an Array
 
 ### TODO
 
-- Kth Largest Element in an Array
 - Group Anagrams  
 - Number of Islands
 - Implement Queue using Stacks 
