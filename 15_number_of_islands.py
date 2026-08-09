@@ -13,10 +13,13 @@ def number_of_islands(grid: list[list[str]]) -> int:
     Time: O(n * m)
     Space: O(n * m)
     """
+    if not grid or not grid[0]:
+        return 0
+
     land = "1"
-    n = len(grid)
-    m = len(grid[0])
-    ds = DisjointUnionSets(n * m)
+    rows = len(grid)
+    cols = len(grid[0])
+    ds = DisjointUnionSets(rows * cols)
 
     directions = [
         (-1, 0),
@@ -30,25 +33,25 @@ def number_of_islands(grid: list[list[str]]) -> int:
     ]
 
     # union set for all connected lands
-    for h in range(n):
-        for v in range(m):
-            if grid[h][v] == land:
-                for dh, dv in directions:
-                    next_h, next_v = h + dh, v + dv
-                    if 0 <= next_h < n and 0 <= next_v < m and grid[next_h][next_v] == land:
-                        x = h * m + v
-                        y = next_h * m + next_v
+    for r in range(rows):
+        for c in range(cols):
+            if grid[r][c] == land:
+                for dr, dc in directions:
+                    next_r, next_c = r + dr, c + dc
+                    if 0 <= next_r < rows and 0 <= next_c < cols and grid[next_r][next_c] == land:
+                        x = r * cols + c
+                        y = next_r * cols + next_c
                         ds.union_sets(x, y)
 
     unique_islands = set()
-    for h in range(n):
-        for v in range(m):
-            if grid[h][v] == land:
-                unique_islands.add(ds.find(h * m + v))
+    for r in range(rows):
+        for c in range(cols):
+            if grid[r][c] == land:
+                unique_islands.add(ds.find(r * cols + c))
 
-    print(ds.parent)
-    print(ds.rank)
-    print(unique_islands)
+    # print(ds.parent)
+    # print(ds.rank)
+    # print(unique_islands)
 
     return len(unique_islands)
 
