@@ -18,8 +18,25 @@
 
 ### TODO
 
+- Reverse Linked List 
+- Linked List Cycle 
+- Merge Two Sorted Lists 
+- Remove Nth Node From End of List 
+- Stack Using Queues 
+- Binary Tree Level Order Traversal 
+- Maximum Depth of Binary Tree 
+- Validate Binary Search Tree 
+- Lowest Common Ancestor of a Binary Tree 
+- Kth Smallest Element in a BST 
+- Number of Connected Components in an Undirected Graph 
+- Course Schedule 
+- Implement Trie 
+- Coin Change 
+- Climbing Stairs
+
+---
+
 - Implement Queue using Stacks 
-- Implement Stack using Queues  
 - Search in Rotated Sorted Array 
 - Find First and Last Position of Element  
 - Merge K Sorted Lists 
@@ -27,11 +44,11 @@
 - Sliding Window Maximum 
 - Daily Temperatures 
 - Clone Graph
-- Course Schedule
 
 ---
 
 ### Binary Search:
+
 - First Occurrence
 - Last Occurrence
 - Lower Bound
