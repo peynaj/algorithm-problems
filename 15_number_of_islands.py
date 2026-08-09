@@ -3,11 +3,102 @@ Given an m x n 2D binary grid which represents a map of '1's (land) and '0's (wa
 
 An island is surrounded by water and is formed by connecting adjacent lands horizontally or vertically.
 You may assume all four edges of the grid are all surrounded by water.
+
+4-direction connectivity
 """
+from collections import deque
 from pprint import pprint
 
 
-def number_of_islands(grid: list[list[str]]) -> int:
+def number_of_islands_1_dfs(grid: list[list[str]]) -> int:
+    """
+    Time: O(n * m)
+    Space: O(n * m)
+    """
+    if not grid or not grid[0]:
+        return 0
+
+    land = "1"
+    rows = len(grid)
+    cols = len(grid[0])
+    # 4-direction connectivity
+    directions = [
+        (-1, 0),
+        (0, -1),
+        (0, 1),
+        (1, 0),
+    ]
+    visited = [[False for _ in range(cols)] for _ in range(rows)]
+
+    def is_safe(r, c):
+        return bool(0 <= r < rows and 0 <= c < cols and grid[r][c] == land and not visited[r][c])
+
+    islands_count = 0
+    for r in range(rows):
+        for c in range(cols):
+            if grid[r][c] == land and not visited[r][c]:
+                visited[r][c] = True
+                islands_count += 1
+
+                stack = [(r, c)]
+                while stack:
+                    cr, cc = stack.pop()
+                    for dr, dc in directions:
+                        nr, nc = cr + dr, cc + dc
+                        if is_safe(nr, nc):
+                            visited[nr][nc] = True
+                            stack.append((nr, nc))
+
+    return islands_count
+
+
+def number_of_islands_2_bfs(grid: list[list[str]]) -> int:
+    """
+    Time: O(n * m)
+    Space: O(n * m)
+    """
+    if not grid or not grid[0]:
+        return 0
+
+    land = "1"
+    rows = len(grid)
+    cols = len(grid[0])
+    # 4-direction connectivity
+    directions = [
+        (-1, 0),
+        (0, -1),
+        (0, 1),
+        (1, 0),
+    ]
+    visited = [[False for _ in range(cols)] for _ in range(rows)]
+
+    def is_safe(r, c):
+        return bool(0 <= r < rows and 0 <= c < cols and grid[r][c] == land and not visited[r][c])
+
+    def bfs(start_r, start_c):
+        q = deque()
+        q.append((start_r, start_c))
+        visited[start_r][start_c] = True
+        while q:
+            r, c = q.popleft()
+
+            for dr, dc in directions:
+                nr, nc = r + dr, c + dc
+                if is_safe(nr, nc):
+                    visited[nr][nc] = True
+                    q.append((nr, nc))
+
+    islands_count = 0
+    for i in range(rows):
+        for j in range(cols):
+            if grid[i][j] == land and not visited[i][j]:
+                bfs(i, j)
+                islands_count += 1
+
+    return islands_count
+
+
+def number_of_islands_3_disjoint_sets(grid: list[list[str]]) -> int:
     """
     Solution: disjoint sets
     Time: O(n * m)
@@ -21,6 +112,7 @@ def number_of_islands(grid: list[list[str]]) -> int:
     cols = len(grid[0])
     ds = DisjointUnionSets(rows * cols)
 
+    # 4-direction connectivity
     directions = [
         (-1, 0),
         (0, -1),
@@ -113,12 +205,22 @@ def run_test():
         (input_3, output_3),
     ]
 
+    solutions = [
+        number_of_islands_1_dfs,
+        number_of_islands_2_bfs,
+        number_of_islands_3_disjoint_sets
+    ]
+
     for index, (grid, expected) in enumerate(test_case):
         print(f"{index=}")
         pprint(grid)
-        res = number_of_islands(grid)
-        print(f"{res=}")
-        assert res == expected, f"{index=} {expected=} {res=}"
+
+        for func in solutions:
+            print(func.__name__, ">")
+            res = func(grid)
+            print(f"{res=}")
+            assert res == expected, f"{index=} {expected=} {res=}"
+
         print("-" * 80)
 
     print("Done!")
