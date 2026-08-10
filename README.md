@@ -17,10 +17,10 @@
 15. Number of Islands
 16. Reverse Linked List
 17. Linked List Cycle
+18. Merge Two Sorted Lists
 
 ### TODO
-
-- Merge Two Sorted Lists 
+ 
 - Remove Nth Node From End of List 
 - Stack Using Queues 
 - Binary Tree Level Order Traversal 
