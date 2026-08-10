@@ -46,6 +46,8 @@ def reverse_list_3_stack(head: Optional[ListNode]) -> Optional[ListNode]:
     Time: O(n)
     Space: O(n)
     """
+    if head is None:
+        return None
     stack = []
     temp = head
     while temp.next is not None:
