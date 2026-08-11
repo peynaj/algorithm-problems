@@ -20,10 +20,10 @@
 18. Merge Two Sorted Lists
 19. Remove Nth Node From End of List
 20. Stack Using Queues
+21. Binary Tree Level Order Traversal
 
 ### TODO
-  
-- Binary Tree Level Order Traversal 
+
 - Maximum Depth of Binary Tree 
 - Validate Binary Search Tree 
 - Lowest Common Ancestor of a Binary Tree 
