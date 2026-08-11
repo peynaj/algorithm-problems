@@ -21,10 +21,10 @@
 19. Remove Nth Node From End of List
 20. Stack Using Queues
 21. Binary Tree Level Order Traversal
+22. Maximum Depth of Binary Tree
 
 ### TODO
 
-- Maximum Depth of Binary Tree 
 - Validate Binary Search Tree 
 - Lowest Common Ancestor of a Binary Tree 
 - Kth Smallest Element in a BST 
