@@ -19,10 +19,10 @@
 17. Linked List Cycle
 18. Merge Two Sorted Lists
 19. Remove Nth Node From End of List
+20. Stack Using Queues
 
 ### TODO
- 
-- Stack Using Queues 
+  
 - Binary Tree Level Order Traversal 
 - Maximum Depth of Binary Tree 
 - Validate Binary Search Tree 
