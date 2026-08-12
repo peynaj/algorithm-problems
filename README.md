@@ -22,10 +22,10 @@
 20. Stack Using Queues
 21. Binary Tree Level Order Traversal
 22. Maximum Depth of Binary Tree
+23. Validate Binary Search Tree
 
 ### TODO
-
-- Validate Binary Search Tree 
+ 
 - Lowest Common Ancestor of a Binary Tree 
 - Kth Smallest Element in a BST 
 - Number of Connected Components in an Undirected Graph 
