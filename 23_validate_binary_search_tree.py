@@ -33,7 +33,7 @@ def bst_recursive(node: Optional[TreeNode], min_value: int, max_value: int) -> b
 
 def is_valid_bst(root: Optional[TreeNode]) -> bool:
     """
-    DFS + Recursive
+    DFS + Recursion
     Time: O(n)
     Space: O(n) -> recursive stack
     """

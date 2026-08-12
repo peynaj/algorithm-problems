@@ -23,10 +23,10 @@
 21. Binary Tree Level Order Traversal
 22. Maximum Depth of Binary Tree
 23. Validate Binary Search Tree
+24. Lowest Common Ancestor of a Binary Tree
 
 ### TODO
- 
-- Lowest Common Ancestor of a Binary Tree 
+
 - Kth Smallest Element in a BST 
 - Number of Connected Components in an Undirected Graph 
 - Course Schedule 
