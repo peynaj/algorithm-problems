@@ -33,14 +33,17 @@ def kth_smallest_1_inorder_traversal(root: Optional[TreeNode], k: int) -> int:
 def kth_smallest_2_morris_traversal(root: Optional[TreeNode], k: int) -> int:
     """
     Time: O(n)
-    Space: O(1)
+    Space: O(n)
+    Extra Space: O(1)
     """
-    sorted_values = []
+    count = 0
     curr = root
     while curr:
         if curr.left is None:
             # visit and go right
-            sorted_values.append(curr.val)
+            count += 1
+            if count == k:
+                return curr.val
             curr = curr.right
         else:
             # find predecessor
@@ -56,10 +59,10 @@ def kth_smallest_2_morris_traversal(root: Optional[TreeNode], k: int) -> int:
                 # clear thread
                 predecessor.right = None
                 # visit and go right
-                sorted_values.append(curr.val)
+                count += 1
+                if count == k:
+                    return curr.val
                 curr = curr.right
-
-    return sorted_values[k - 1]
 
 
 def run_test():
@@ -68,6 +71,7 @@ def run_test():
         kth_smallest_2_morris_traversal,
     ]:
         print(f"Solution: {kth_smallest.__name__}")
+        print("Test 1")
         root = TreeNode(5)
         root.left = TreeNode(3)
         root.left.left = TreeNode(2)
@@ -80,11 +84,25 @@ def run_test():
         result = kth_smallest(root, k)
         assert result == expected, f"{expected=}, {result=}"
 
+        print("Test 2")
+        root = TreeNode(5)
+        root.left = TreeNode(3)
+        root.left.left = TreeNode(2)
+        root.left.left.left = TreeNode(1)
+        root.left.right = TreeNode(4)
+        root.right = TreeNode(6)
         k = 1
         expected = 1
         result = kth_smallest(root, k)
         assert result == expected, f"{expected=}, {result=}"
 
+        print("Test 3")
+        root = TreeNode(5)
+        root.left = TreeNode(3)
+        root.left.left = TreeNode(2)
+        root.left.left.left = TreeNode(1)
+        root.left.right = TreeNode(4)
+        root.right = TreeNode(6)
         k = 6
         expected = 6
         result = kth_smallest(root, k)
