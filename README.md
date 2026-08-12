@@ -25,10 +25,10 @@
 23. Validate Binary Search Tree
 24. Lowest Common Ancestor of a Binary Tree
 25. Kth Smallest Element in a BST
+26. Number of Connected Components in an Undirected Graph
 
 ### TODO
- 
-- Number of Connected Components in an Undirected Graph 
+  
 - Course Schedule 
 - Implement Trie 
 - Coin Change 
