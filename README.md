@@ -24,10 +24,10 @@
 22. Maximum Depth of Binary Tree
 23. Validate Binary Search Tree
 24. Lowest Common Ancestor of a Binary Tree
+25. Kth Smallest Element in a BST
 
 ### TODO
-
-- Kth Smallest Element in a BST 
+ 
 - Number of Connected Components in an Undirected Graph 
 - Course Schedule 
 - Implement Trie 
