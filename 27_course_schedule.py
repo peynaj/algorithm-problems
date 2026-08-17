@@ -54,6 +54,8 @@ def can_finish(num_courses: int, prerequisites: list[list[int]]) -> bool:
     return False if is_cyclic(num_courses, prerequisites) else True
 
 
+# TODO: Kahn's Algorithm / Topological Sort (BFS)
+
 def run_tests():
     print("Test 1")
     assert can_finish(2, [[1, 0]])
