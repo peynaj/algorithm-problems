@@ -31,18 +31,37 @@
 
 ### TODO
    
-- Implement Trie  
 - Climbing Stairs
+- Search in Rotated Sorted Array 
+- Find First and Last Position of Element in Sorted Array 
+- Koko Eating Bananas 
+- Merge K Sorted Lists 
+- Find Median from Data Stream 
+- Daily Temperatures 
+- Largest Rectangle in Histogram 
+- Longest Increasing Subsequence 
+- House Robber 
+- Course Schedule II (Topological Sort)
+- Binary search on answer
+- Next Greater Element 
+- XOR tricks 
+- Single Number
+- Merge Sort 
+- Count Inversions
+- Shortest Path
+- Dijkstra 
+- BFS shortest path
+- Implement Trie  
+- Subsets
+- Permutations
+- Combination Sum
+- Word Search
 
 ---
 
 - Implement Queue using Stacks 
-- Search in Rotated Sorted Array 
-- Find First and Last Position of Element  
-- Merge K Sorted Lists 
 - Encode and Decode Strings  
 - Sliding Window Maximum 
-- Daily Temperatures 
 - Clone Graph
 
 ---
