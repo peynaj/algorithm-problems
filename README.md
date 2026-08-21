@@ -27,11 +27,11 @@
 25. Kth Smallest Element in a BST
 26. Number of Connected Components in an Undirected Graph
 27. Course Schedule
+28. Coin Change (Minimum Coins)
 
 ### TODO
    
-- Implement Trie 
-- Coin Change 
+- Implement Trie  
 - Climbing Stairs
 
 ---
