@@ -29,6 +29,7 @@
 27. Course Schedule
 28. Coin Change (Minimum Coins)
 29. Climbing Stairs
+30. Search in Rotated Sorted Array
 
 ### TODO
    
