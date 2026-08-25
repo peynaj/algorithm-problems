@@ -30,12 +30,11 @@
 28. Coin Change (Minimum Coins)
 29. Climbing Stairs
 30. Search in Rotated Sorted Array
+31. Find First and Last Position of Element in Sorted Array
 
 ### TODO
    
-- 
-- Search in Rotated Sorted Array 
-- Find First and Last Position of Element in Sorted Array 
+
 - Koko Eating Bananas 
 - Merge K Sorted Lists 
 - Find Median from Data Stream 
