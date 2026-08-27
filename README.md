@@ -31,11 +31,11 @@
 29. Climbing Stairs
 30. Search in Rotated Sorted Array
 31. Find First and Last Position of Element in Sorted Array
+32. Koko Eating Bananas
 
 ### TODO
    
 
-- Koko Eating Bananas 
 - Merge K Sorted Lists 
 - Find Median from Data Stream 
 - Daily Temperatures 
