@@ -32,11 +32,11 @@
 30. Search in Rotated Sorted Array
 31. Find First and Last Position of Element in Sorted Array
 32. Koko Eating Bananas
+33. Merge K Sorted Lists
 
 ### TODO
    
 
-- Merge K Sorted Lists 
 - Find Median from Data Stream 
 - Daily Temperatures 
 - Largest Rectangle in Histogram 
@@ -69,11 +69,11 @@
 
 ### Binary Search:
 
-- First Occurrence
-- Last Occurrence
+- First Occurrence ✅
+- Last Occurrence ✅
 - Lower Bound
 - Upper Bound
 - Search Insert Position
 - Peak Element
-- Rotated Sorted Array
-- Search on Answer (Binary Search on Answer)
+- Rotated Sorted Array ✅
+- Search on Answer (Binary Search on Answer) ✅
