@@ -38,24 +38,32 @@
 
 ### TODO
 
-- Largest Rectangle in Histogram 
-- Longest Increasing Subsequence 
-- Implement Trie
-- House Robber 
-- Course Schedule II (Topological Sort)
-- Binary search on answer
-- Next Greater Element 
-- XOR tricks 
+- Next Greater Element
+- Largest Rectangle in Histogram
 - Single Number
-- Merge Sort 
-- Count Inversions
-- Shortest Path
-- Dijkstra 
-- BFS shortest path
 - Subsets
 - Permutations
 - Combination Sum
 - Word Search
+- Implement Trie
+- House Robber
+- Longest Increasing Subsequence
+- Course Schedule II
+- BFS Shortest Path in Grid
+- Dijkstra's Algorithm
+- Merge Sort
+- Count Inversions
+- Subarray Sum Equals K
+- Jump Game
+- Gas Station
+- Binary Tree Right Side View
+- Serialize and Deserialize Binary Tree
+- Clone Graph
+- Number of Provinces
+- Word Ladder
+- Network Delay Time
+- 0/1 Knapsack
+
 
 ---
 
