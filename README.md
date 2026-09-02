@@ -34,13 +34,13 @@
 32. Koko Eating Bananas
 33. Merge K Sorted Lists
 34. Find Median from Data Stream
+35. Daily Temperatures
 
 ### TODO
-   
- 
-- Daily Temperatures 
+
 - Largest Rectangle in Histogram 
 - Longest Increasing Subsequence 
+- Implement Trie
 - House Robber 
 - Course Schedule II (Topological Sort)
 - Binary search on answer
@@ -52,7 +52,6 @@
 - Shortest Path
 - Dijkstra 
 - BFS shortest path
-- Implement Trie  
 - Subsets
 - Permutations
 - Combination Sum
