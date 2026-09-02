@@ -1,8 +1,6 @@
 """
-
+Given the head of a singly linked list, reverse the list, and return the reversed list.
 """
-
-# Definition for singly-linked list.
 from typing import Optional
 
 

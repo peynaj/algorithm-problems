@@ -33,11 +33,11 @@
 31. Find First and Last Position of Element in Sorted Array
 32. Koko Eating Bananas
 33. Merge K Sorted Lists
+34. Find Median from Data Stream
 
 ### TODO
    
-
-- Find Median from Data Stream 
+ 
 - Daily Temperatures 
 - Largest Rectangle in Histogram 
 - Longest Increasing Subsequence 
