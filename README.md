@@ -37,11 +37,10 @@
 35. Daily Temperatures
 36. Next Greater Element
 37. Largest Rectangle in Histogram
-
+38. Single Number
 
 ### TODO
 
-- Single Number
 - Subsets
 - Permutations
 - Combination Sum
