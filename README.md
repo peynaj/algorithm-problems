@@ -36,10 +36,11 @@
 34. Find Median from Data Stream
 35. Daily Temperatures
 36. Next Greater Element
+37. Largest Rectangle in Histogram
+
 
 ### TODO
 
-- Largest Rectangle in Histogram
 - Single Number
 - Subsets
 - Permutations
