@@ -38,10 +38,10 @@
 36. Next Greater Element
 37. Largest Rectangle in Histogram
 38. Single Number
+39. Subsets
 
 ### TODO
 
-- Subsets
 - Permutations
 - Combination Sum
 - Word Search
