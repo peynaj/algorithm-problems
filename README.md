@@ -35,10 +35,10 @@
 33. Merge K Sorted Lists
 34. Find Median from Data Stream
 35. Daily Temperatures
+36. Next Greater Element
 
 ### TODO
 
-- Next Greater Element
 - Largest Rectangle in Histogram
 - Single Number
 - Subsets
