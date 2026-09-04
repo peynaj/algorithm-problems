@@ -39,10 +39,10 @@
 37. Largest Rectangle in Histogram
 38. Single Number
 39. Subsets
+40. Permutations
 
 ### TODO
 
-- Permutations
 - Combination Sum
 - Word Search
 - Implement Trie
