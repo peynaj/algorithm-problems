@@ -40,10 +40,10 @@
 38. Single Number
 39. Subsets
 40. Permutations
+41. Combination Sum
 
 ### TODO
 
-- Combination Sum
 - Word Search
 - Implement Trie
 - House Robber
