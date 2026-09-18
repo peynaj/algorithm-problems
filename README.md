@@ -41,10 +41,10 @@
 39. Subsets
 40. Permutations
 41. Combination Sum
+42. Word Search
 
 ### TODO
 
-- Word Search
 - Implement Trie
 - House Robber
 - Longest Increasing Subsequence
