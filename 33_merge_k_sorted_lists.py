@@ -15,7 +15,9 @@ class ListNode:
 
 def merge_k_lists_1_brute_fource(lists: list[Optional[ListNode]]) -> Optional[ListNode]:
     """
-    Time: O(n * k * k)
+    k = count of lists
+    n = count of all nodes
+    Time: O(n * k)
     Space: O(1)
     """
     dummy_head = ListNode(0)
@@ -40,8 +42,10 @@ def merge_k_lists_1_brute_fource(lists: list[Optional[ListNode]]) -> Optional[Li
 
 def merge_k_lists_2_sort_all_values(lists: list[Optional[ListNode]]) -> Optional[ListNode]:
     """
-    Time: O(k * n * log (k * n))
-    Space: O(k * n)
+    k = count of lists
+    n = count of all nodes
+    Time: O(n * log n)
+    Space: O(n)
     """
     dummy_head = ListNode(0)
     values = []
@@ -62,6 +66,8 @@ def merge_k_lists_2_sort_all_values(lists: list[Optional[ListNode]]) -> Optional
 
 def merge_k_lists_3_heapq(lists: list[Optional[ListNode]]) -> Optional[ListNode]:
     """
+    k = count of lists
+    n = count of all nodes
     Time: O(n * log k)
     Space: O(k)
     """
