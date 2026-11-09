@@ -90,11 +90,54 @@ def merge_k_lists_3_heapq(lists: list[Optional[ListNode]]) -> Optional[ListNode]
     return dummy_head.next
 
 
+def merge_k_lists_4_divide_and_conquer(lists: list[Optional[ListNode]]) -> Optional[ListNode]:
+    """
+    k = count of lists
+    n = count of all nodes
+    Time: O(n * log k)
+    Space: O(log k)
+    """
+
+    if len(lists) == 0:
+        return None
+
+    def merge_two_list(a, b):
+        dummy = ListNode(0)
+        curr = dummy
+        while a is not None and b is not None:
+            if a.val <= b.val:
+                curr.next = a
+                a = a.next
+            else:
+                curr.next = b
+                b = b.next
+            curr = curr.next
+
+        if a is not None:
+            curr.next = a
+        else:
+            curr.next = b
+        return dummy.next
+
+    def merge_range(arr, left, right):
+        if left > right:
+            return None
+        if left == right:
+            return arr[left]
+        mid = left + (right - left) // 2
+        l1 = merge_range(arr, left, mid)
+        l2 = merge_range(arr, mid + 1, right)
+        return merge_two_list(l1, l2)
+
+    return merge_range(lists, 0, len(lists) - 1)
+
+
 def run_tests():
     solutions = [
         merge_k_lists_1_brute_fource,
         merge_k_lists_2_sort_all_values,
         merge_k_lists_3_heapq,
+        merge_k_lists_4_divide_and_conquer,
     ]
     for func in solutions:
         print(func.__name__, "...")
