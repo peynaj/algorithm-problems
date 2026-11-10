@@ -42,10 +42,10 @@
 40. Permutations
 41. Combination Sum
 42. Word Search
+43. Implement Trie
 
 ### TODO
 
-- Implement Trie
 - House Robber
 - Longest Increasing Subsequence
 - Course Schedule II
