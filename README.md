@@ -43,11 +43,11 @@
 41. Combination Sum
 42. Word Search
 43. Implement Trie
+44. House Robber
+45. Longest Increasing Subsequence
 
 ### TODO
 
-- House Robber
-- Longest Increasing Subsequence
 - Course Schedule II
 - BFS Shortest Path in Grid
 - Dijkstra's Algorithm
