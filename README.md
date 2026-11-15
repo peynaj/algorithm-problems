@@ -45,10 +45,10 @@
 43. Implement Trie
 44. House Robber
 45. Longest Increasing Subsequence
+46. Course Schedule II
 
 ### TODO
 
-- Course Schedule II
 - BFS Shortest Path in Grid
 - Dijkstra's Algorithm
 - Merge Sort
