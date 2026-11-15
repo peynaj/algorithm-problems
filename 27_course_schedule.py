@@ -11,25 +11,6 @@ Detect Cycle in a Directed Graph
 """
 
 
-def dfs(adj, i, visited, rec_stack):
-    if rec_stack[i]:
-        return True
-
-    if visited[i]:
-        return False
-
-    visited[i] = True
-    rec_stack[i] = True
-
-    for j in adj[i]:
-        if dfs(adj, j, visited, rec_stack):
-            return True
-
-    rec_stack[i] = False
-
-    return False
-
-
 def is_cyclic(v, edges):
     adj = [[] for _ in range(v)]
     for i, j in edges:
@@ -38,8 +19,25 @@ def is_cyclic(v, edges):
     visited = [False] * v
     rec_stack = [False] * v
 
+    def dfs(index):
+        if rec_stack[index]:
+            return True
+
+        if visited[index]:
+            return False
+
+        visited[index] = True
+        rec_stack[index] = True
+
+        for j in adj[index]:
+            if dfs(j):
+                return True
+
+        rec_stack[index] = False
+        return False
+
     for i in range(v):
-        if not visited[i] and dfs(adj, i, visited, rec_stack):
+        if not visited[i] and dfs(i):
             return True
 
     return False
