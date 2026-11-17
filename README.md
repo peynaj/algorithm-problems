@@ -46,16 +46,16 @@
 44. House Robber
 45. Longest Increasing Subsequence
 46. Course Schedule II
+47. Merge Sort
 
 ### TODO
 
-- BFS Shortest Path in Grid
-- Dijkstra's Algorithm
-- Merge Sort
 - Count Inversions
 - Subarray Sum Equals K
 - Jump Game
 - Gas Station
+- Linked List Merge Sort
+- Quick Sort
 - Binary Tree Right Side View
 - Serialize and Deserialize Binary Tree
 - Clone Graph
@@ -63,6 +63,7 @@
 - Word Ladder
 - Network Delay Time
 - 0/1 Knapsack
+- Dijkstra's Algorithm
 
 
 ---
@@ -73,6 +74,10 @@
 - Clone Graph
 
 ---
+
+### Hard:
+
+1. BFS Shortest Path in Grid
 
 ### Binary Search:
 
