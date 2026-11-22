@@ -47,10 +47,10 @@
 45. Longest Increasing Subsequence
 46. Course Schedule II
 47. Merge Sort
+48. Score of Parentheses
 
 ### TODO
 
-- Count Inversions
 - Subarray Sum Equals K
 - Jump Game
 - Gas Station
@@ -78,6 +78,7 @@
 ### Hard:
 
 1. BFS Shortest Path in Grid
+2. Count Inversions
 
 ### Binary Search:
 
