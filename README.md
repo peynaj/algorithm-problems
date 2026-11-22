@@ -48,10 +48,10 @@
 46. Course Schedule II
 47. Merge Sort
 48. Score of Parentheses
+49. Subarray Sum Equals K
 
 ### TODO
 
-- Subarray Sum Equals K
 - Jump Game
 - Gas Station
 - Linked List Merge Sort
@@ -64,6 +64,7 @@
 - Network Delay Time
 - 0/1 Knapsack
 - Dijkstra's Algorithm
+- Subarray with Given Sum
 
 
 ---
