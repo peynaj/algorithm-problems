@@ -49,6 +49,7 @@
 47. Merge Sort
 48. Score of Parentheses
 49. Subarray Sum Equals K
+50. Number of Provinces
 
 ### TODO
 
@@ -59,7 +60,6 @@
 - Binary Tree Right Side View
 - Serialize and Deserialize Binary Tree
 - Clone Graph
-- Number of Provinces
 - Word Ladder
 - Network Delay Time
 - 0/1 Knapsack
