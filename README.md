@@ -51,28 +51,41 @@
 49. Subarray Sum Equals K
 50. Number of Provinces
 
+
 ### TODO
 
-- Jump Game
-- Gas Station
-- Linked List Merge Sort
-- Quick Sort
-- Binary Tree Right Side View
-- Serialize and Deserialize Binary Tree
-- Clone Graph
-- Word Ladder
-- Network Delay Time
-- 0/1 Knapsack
-- Dijkstra's Algorithm
-- Subarray with Given Sum
+* Network Delay Time
+* Container With Most Water
+* Jump Game
+* Edit Distance
+* Sliding Window Maximum
+* Sort List
+* Word Ladder
+* 3Sum
+* Redundant Connection
+* Gas Station
+* Trapping Rain Water
+* 0/1 Knapsack
+* Reverse Nodes in k-Group
+* Rotting Oranges
+* Minimum Window Substring
+* Min Cost to Connect All Points
+* Implement Quick Sort
+* Partition Equal Subset Sum
+* Find Peak Element
+* Longest Common Subsequence
+* Rotate Image
+* Binary Tree Maximum Path Sum
+* Sort Colors
+* N-Queens
+* Serialize and Deserialize Binary Tree
+* Construct Binary Tree from Preorder and Inorder Traversal
+* Cheapest Flights Within K Stops
+* Longest Palindromic Substring
+* Clone Graph
+* Implement Queue using Stacks
+* Encode and Decode Strings
 
-
----
-
-- Implement Queue using Stacks 
-- Encode and Decode Strings  
-- Sliding Window Maximum 
-- Clone Graph
 
 ---
 
